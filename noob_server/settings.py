@@ -63,8 +63,12 @@ WSGI_APPLICATION = 'noob_server.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'pfsogxvx',
+        'USER': 'pfsogxvx',
+        'PASSWORD': 'PrCzyBFsJubzpl8zOm1lqBxl6fGgccRp',
+        'HOST': 'otto.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 
